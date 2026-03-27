@@ -1,0 +1,14 @@
+{
+  "name": "shopline-pos-hook-facebook",
+  "version": "1.0.0",
+  "description": "Receive SHOPLINE POS webhook data and send offline purchase events to Meta Conversions API",
+  "main": "index.js",
+  "scripts": {
+    "start": "functions-framework --target=shp_FB",
+    "dev": "functions-framework --target=shp_FB --port=8080"
+  },
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.4.6",
+    "axios": "^1.7.9"
+  }
+}
