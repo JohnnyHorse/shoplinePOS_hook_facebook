@@ -210,7 +210,8 @@ https://asia-east1-YOUR_PROJECT_ID.cloudfunctions.net/shopline-pos-facebook-hook
 
 ### 方式一：用 SHOPLINE API REFERENCE
 
-因為我們只需要建立一個 webhook，所以可以直接在 SHOPLINE API REFERENCE設定。(https://open-api.docs.shoplineapp.com/reference/post_webhooks)
+因為我們只需要建立一個 webhook，所以可以直接在 SHOPLINE API REFERENCE設定。
+(https://open-api.docs.shoplineapp.com/reference/post_webhooks)
 輸入Credentials跟address，topics選擇order/create，然後點try it就好。
 
 ### 方式二：用 curl
