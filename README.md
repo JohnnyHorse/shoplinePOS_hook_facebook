@@ -216,7 +216,7 @@ https://asia-east1-YOUR_PROJECT_ID.cloudfunctions.net/shopline-pos-facebook-hook
 
 ### 方式二：用 curl
 
-```json
+```bash
 curl --request POST \
      --url https://open.shopline.io/v1/webhooks \
      --header 'accept: application/json' \
@@ -230,7 +230,6 @@ curl --request POST \
     "order/create"
   ]
 }
-'
 ```
 
 ## 本專案目前送到 Meta 的事件內容
